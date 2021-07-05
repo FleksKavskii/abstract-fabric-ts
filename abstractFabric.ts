@@ -32,7 +32,7 @@ abstract class baseIngredient {
 }
 
 class baseCheese extends baseIngredient {
-    public getIngredient(cheeseType: string): string {
+    getIngredient(cheeseType: string): string {
         return cheeseType
     }
 }
@@ -56,7 +56,7 @@ class parmezanCheese extends baseCheese {
 }
 
 class baseVeggie extends baseIngredient {
-    public getIngredient(veggieType: string): string {
+    getIngredient(veggieType: string): string {
         return veggieType
     }
 }
